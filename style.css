@@ -1,0 +1,67 @@
+	/* comment= ctrl + shift + / for comment
+		Syntax:
+
+		 *(selector){
+			property: value;
+		 }
+		
+		vh -viewport height - measurement based on the height of the webpage and the device you're currently viewing the page in
+		manipulate contents with flexbox
+
+	*/
+		
+/*universal text*/
+
+	*{
+	font-family: "Roboto", sans-serif ;
+	}
+
+/*sub text*/
+
+	h1, h2 {
+		font-family: "Montserrat", sans-serif;
+	}
+
+	ul{
+		list-style: none;
+		padding: 0;
+	}
+
+	h2 {
+		color: #007bff;
+	}
+
+/*graphics and animation*/
+
+	img {
+		height: 200px;
+		width:  200px;
+	}
+
+	#landing {
+		height: 80vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: safe center;
+	}
+
+	#gallery {
+		height: 75vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: safe center;
+	}
+
+	.tools {
+		border: 5px solid #f2f2f2;
+		padding: 25px;
+		margin: 20px;
+		height: 200px;
+		width: 75%;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
